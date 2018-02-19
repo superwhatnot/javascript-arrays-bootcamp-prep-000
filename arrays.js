@@ -38,5 +38,5 @@ destructivelyAddElementToEndOfArray should alter the original array.
 */
 
 function addElementToEndOfArray(array, element){
-  return array.push(element)
+  return [array..., element]
 }

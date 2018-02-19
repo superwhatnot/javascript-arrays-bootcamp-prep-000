@@ -46,7 +46,7 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array
 }
 
-/*TODO: Define a function in arrays.js called accessElementInArray. 
+/*TODO: Define a function in arrays.js called accessElementInArray.
 The function should accept an array and an index and return the element at that index.
 */
 
@@ -54,9 +54,9 @@ function accessElementInArray(array, index){
   return array[index]
 }
 
-/*TODO: Define a function in arrays.js called 
-destructivelyRemoveElementFromBeginningOfArray that takes an array 
-as its only argument and removes the first element. Your function 
+/*TODO: Define a function in arrays.js called
+destructivelyRemoveElementFromBeginningOfArray that takes an array
+as its only argument and removes the first element. Your function
 should then return the entire array, and it should mutate the array.
 */
 

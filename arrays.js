@@ -61,5 +61,6 @@ should then return the entire array, and it should mutate the array.
 */
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift
+  array.shift
+  return array
 }

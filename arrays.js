@@ -61,7 +61,8 @@ should then return the entire array, and it should mutate the array.
 */
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift()
+  array.shift()
+  return array
 }
 
 /*TODO: Define a function in arrays.js called removeElementFromBeginningOfArray
@@ -90,4 +91,3 @@ should not mutate the original array.
 function removeElementFromEndOfArray(array){
   return array.slice(0, array.length -1)
 }
-

@@ -2,9 +2,9 @@
 Its value should be an array of the strings snickers, hundred grand, kitkat, and skittles.
 */
 
-var chocolateBars = {
+var chocolateBars = []
   "snickers",
   "hundred grand",
   "kitkat",
   "skittles"
-}
+]
